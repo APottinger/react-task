@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="container">
-      <Header title='Keep Moving Forward'/>
+      <Header title='Keep Moving Upward'/>
       
       {tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} toggleReminder={toggleReminder}/> : 'You have no tasks...'}
     </div>
